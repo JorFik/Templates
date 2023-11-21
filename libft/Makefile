@@ -1,7 +1,7 @@
 LIB = ar rcs
 RM = rm -f
 CC = cc
-CFLAGS = -Wall -Wextra -Werror -I./h_files
+CFLAGS = -Wall -Wextra -Werror -I../headers
 ADD = -fsanitize=address
 NAME = libft.a
 OBJ+ = $(ft_so_far:.c=.o)
